@@ -1,5 +1,5 @@
 -module(tut1).
--export([double/1, fact/1, mul/2, add/2]).
+-export([double/1, fact/1, mul/2, add/2, idiv/2]).
 
 double(X) ->
     2 * X.
@@ -14,3 +14,6 @@ add(X,Y) ->
 
 mul(X,Y) ->
     X * Y.
+
+idiv(X,Y) ->
+    X / Y.
